@@ -1,0 +1,26 @@
+<annotation>
+	<folder>N</folder>
+	<filename>n.1e5ee3b4-0841-11ee-8c12-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\N\n.1e5ee3b4-0841-11ee-8c12-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>N</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>80</xmin>
+			<ymin>226</ymin>
+			<xmax>318</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

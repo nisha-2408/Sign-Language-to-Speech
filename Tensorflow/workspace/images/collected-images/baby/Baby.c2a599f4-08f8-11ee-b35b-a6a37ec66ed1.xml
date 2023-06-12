@@ -1,0 +1,26 @@
+<annotation>
+	<folder>baby</folder>
+	<filename>Baby.c2a599f4-08f8-11ee-b35b-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\baby\Baby.c2a599f4-08f8-11ee-b35b-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Baby</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>60</xmin>
+			<ymin>212</ymin>
+			<xmax>410</xmax>
+			<ymax>456</ymax>
+		</bndbox>
+	</object>
+</annotation>

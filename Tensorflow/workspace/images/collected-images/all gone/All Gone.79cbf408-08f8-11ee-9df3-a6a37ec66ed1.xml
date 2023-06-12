@@ -1,0 +1,26 @@
+<annotation>
+	<folder>all gone</folder>
+	<filename>All Gone.79cbf408-08f8-11ee-9df3-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\all gone\All Gone.79cbf408-08f8-11ee-9df3-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>All Gone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>118</xmin>
+			<ymin>204</ymin>
+			<xmax>536</xmax>
+			<ymax>443</ymax>
+		</bndbox>
+	</object>
+</annotation>

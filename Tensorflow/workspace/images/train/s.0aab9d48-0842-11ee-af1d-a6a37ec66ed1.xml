@@ -1,0 +1,26 @@
+<annotation>
+	<folder>S</folder>
+	<filename>s.0aab9d48-0842-11ee-af1d-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\S\s.0aab9d48-0842-11ee-af1d-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>S</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>172</ymin>
+			<xmax>347</xmax>
+			<ymax>425</ymax>
+		</bndbox>
+	</object>
+</annotation>

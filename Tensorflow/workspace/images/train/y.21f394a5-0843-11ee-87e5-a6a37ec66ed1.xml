@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Y</folder>
+	<filename>y.21f394a5-0843-11ee-87e5-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\Y\y.21f394a5-0843-11ee-87e5-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Y</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>140</xmin>
+			<ymin>115</ymin>
+			<xmax>371</xmax>
+			<ymax>473</ymax>
+		</bndbox>
+	</object>
+</annotation>

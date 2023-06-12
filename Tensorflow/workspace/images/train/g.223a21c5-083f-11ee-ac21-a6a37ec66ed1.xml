@@ -1,0 +1,26 @@
+<annotation>
+	<folder>G</folder>
+	<filename>g.223a21c5-083f-11ee-ac21-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\G\g.223a21c5-083f-11ee-ac21-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>G</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>230</xmin>
+			<ymin>96</ymin>
+			<xmax>499</xmax>
+			<ymax>430</ymax>
+		</bndbox>
+	</object>
+</annotation>

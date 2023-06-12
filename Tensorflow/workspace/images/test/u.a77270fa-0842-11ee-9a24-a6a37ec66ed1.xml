@@ -1,0 +1,26 @@
+<annotation>
+	<folder>U</folder>
+	<filename>u.a77270fa-0842-11ee-9a24-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\U\u.a77270fa-0842-11ee-9a24-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>U</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>158</xmin>
+			<ymin>196</ymin>
+			<xmax>410</xmax>
+			<ymax>460</ymax>
+		</bndbox>
+	</object>
+</annotation>

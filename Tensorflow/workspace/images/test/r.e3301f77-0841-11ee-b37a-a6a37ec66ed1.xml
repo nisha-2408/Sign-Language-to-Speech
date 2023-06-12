@@ -1,0 +1,26 @@
+<annotation>
+	<folder>R</folder>
+	<filename>r.e3301f77-0841-11ee-b37a-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\R\r.e3301f77-0841-11ee-b37a-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>R</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>19</xmin>
+			<ymin>236</ymin>
+			<xmax>274</xmax>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

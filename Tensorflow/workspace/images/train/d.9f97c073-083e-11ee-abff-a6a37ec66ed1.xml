@@ -1,0 +1,26 @@
+<annotation>
+	<folder>D</folder>
+	<filename>d.9f97c073-083e-11ee-abff-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\D\d.9f97c073-083e-11ee-abff-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>D</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>221</xmin>
+			<ymin>184</ymin>
+			<xmax>533</xmax>
+			<ymax>466</ymax>
+		</bndbox>
+	</object>
+</annotation>

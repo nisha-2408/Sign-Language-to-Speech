@@ -1,0 +1,26 @@
+<annotation>
+	<folder>aboard</folder>
+	<filename>Aboard.39ffc852-08f8-11ee-bb45-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\aboard\Aboard.39ffc852-08f8-11ee-bb45-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Aboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>242</ymin>
+			<xmax>331</xmax>
+			<ymax>444</ymax>
+		</bndbox>
+	</object>
+</annotation>
