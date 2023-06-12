@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mid day</folder>
+	<filename>Mid Day.c1914a6b-090f-11ee-8117-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\mid day\Mid Day.c1914a6b-090f-11ee-8117-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mid Day</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>277</xmin>
+			<ymin>125</ymin>
+			<xmax>460</xmax>
+			<ymax>310</ymax>
+		</bndbox>
+	</object>
+</annotation>

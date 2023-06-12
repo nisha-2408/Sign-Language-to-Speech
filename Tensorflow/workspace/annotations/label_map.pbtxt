@@ -35,106 +35,118 @@ item {
 	id:9
 }
 item { 
-	name:'A'
+	name:'Aboard'
 	id:10
 }
 item { 
-	name:'B'
+	name:'All Gone'
 	id:11
 }
 item { 
-	name:'C'
+	name:'Baby'
 	id:12
 }
 item { 
-	name:'D'
+	name:'Beside'
 	id:13
 }
 item { 
-	name:'E'
+	name:'Book'
 	id:14
 }
 item { 
-	name:'F'
+	name:'Bowl'
 	id:15
 }
 item { 
-	name:'G'
+	name:'Bridge'
 	id:16
 }
 item { 
-	name:'H'
+	name:'Camp'
 	id:17
 }
 item { 
-	name:'I'
+	name:'Fond'
 	id:18
 }
 item { 
-	name:'J'
+	name:'Friend'
 	id:19
 }
 item { 
-	name:'K'
+	name:'High'
 	id:20
 }
 item { 
-	name:'L'
+	name:'House'
 	id:21
 }
 item { 
-	name:'M'
+	name:'How Many'
 	id:22
 }
 item { 
-	name:'N'
+	name:'I'
 	id:23
 }
 item { 
-	name:'O'
+	name:'I Love You'
 	id:24
 }
 item { 
-	name:'P'
+	name:'Marry'
 	id:25
 }
 item { 
-	name:'Q'
+	name:'Medal'
 	id:26
 }
 item { 
-	name:'R'
+	name:'Mid Day'
 	id:27
 }
 item { 
-	name:'S'
+	name:'Middle'
 	id:28
 }
 item { 
-	name:'T'
+	name:'Money'
 	id:29
 }
 item { 
-	name:'U'
+	name:'Mother'
 	id:30
 }
 item { 
-	name:'V'
+	name:'Opposite'
 	id:31
 }
 item { 
-	name:'W'
+	name:'Rose'
 	id:32
 }
 item { 
-	name:'X'
+	name:'See'
 	id:33
 }
 item { 
-	name:'Y'
+	name:'Short'
 	id:34
 }
 item { 
-	name:'Z'
+	name:'Thank You'
 	id:35
+}
+item { 
+	name:'Write'
+	id:36
+}
+item { 
+	name:'yes'
+	id:37
+}
+item { 
+	name:'You'
+	id:38
 }

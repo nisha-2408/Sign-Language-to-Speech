@@ -1,0 +1,26 @@
+<annotation>
+	<folder>high</folder>
+	<filename>High.b914eef8-08fa-11ee-b6fa-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\high\High.b914eef8-08fa-11ee-b6fa-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>High</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>70</xmin>
+			<ymin>126</ymin>
+			<xmax>386</xmax>
+			<ymax>348</ymax>
+		</bndbox>
+	</object>
+</annotation>

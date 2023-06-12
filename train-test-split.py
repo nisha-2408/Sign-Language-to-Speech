@@ -3,7 +3,7 @@ par_directory = "Tensorflow/workspace/images/collected-images"
 train = "Tensorflow/workspace/images/train"
 test = "Tensorflow/workspace/images/test"
 
-folders = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+folders = ['aboard', 'all gone', 'baby', 'beside', 'book', 'bowl', 'bridge', 'camp', 'fond', 'friend', 'high', 'house', 'how many', 'i', 'i love you', 'marry', 'medal', 'mid day', 'middle', 'money', 'mother', 'opposite', 'rose', 'see', 'short', 'thank you', 'write', 'yes', 'you']
 
 for i in folders:
     folder = os.path.join(par_directory, i.lower())

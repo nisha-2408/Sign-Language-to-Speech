@@ -1,0 +1,26 @@
+<annotation>
+	<folder>write</folder>
+	<filename>Write.638dee11-0912-11ee-8a02-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\write\Write.638dee11-0912-11ee-8a02-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Write</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>225</xmin>
+			<ymin>220</ymin>
+			<xmax>614</xmax>
+			<ymax>441</ymax>
+		</bndbox>
+	</object>
+</annotation>

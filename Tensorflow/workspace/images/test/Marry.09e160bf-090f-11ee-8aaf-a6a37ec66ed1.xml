@@ -1,0 +1,26 @@
+<annotation>
+	<folder>marry</folder>
+	<filename>Marry.09e160bf-090f-11ee-8aaf-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\marry\Marry.09e160bf-090f-11ee-8aaf-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Marry</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>152</xmin>
+			<ymin>181</ymin>
+			<xmax>419</xmax>
+			<ymax>442</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>how many</folder>
+	<filename>How Many.10e5008e-08fb-11ee-b150-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\how many\How Many.10e5008e-08fb-11ee-b150-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>How Many</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>135</xmin>
+			<ymin>127</ymin>
+			<xmax>640</xmax>
+			<ymax>422</ymax>
+		</bndbox>
+	</object>
+</annotation>

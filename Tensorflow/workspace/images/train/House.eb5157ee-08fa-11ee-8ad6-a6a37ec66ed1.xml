@@ -1,0 +1,26 @@
+<annotation>
+	<folder>house</folder>
+	<filename>House.eb5157ee-08fa-11ee-8ad6-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\house\House.eb5157ee-08fa-11ee-8ad6-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>House</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>118</ymin>
+			<xmax>532</xmax>
+			<ymax>461</ymax>
+		</bndbox>
+	</object>
+</annotation>

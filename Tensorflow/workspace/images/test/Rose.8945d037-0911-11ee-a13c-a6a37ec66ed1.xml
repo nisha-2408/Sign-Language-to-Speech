@@ -1,0 +1,26 @@
+<annotation>
+	<folder>rose</folder>
+	<filename>Rose.8945d037-0911-11ee-a13c-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\rose\Rose.8945d037-0911-11ee-a13c-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rose</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>107</ymin>
+			<xmax>452</xmax>
+			<ymax>334</ymax>
+		</bndbox>
+	</object>
+</annotation>

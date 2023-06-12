@@ -1,0 +1,26 @@
+<annotation>
+	<folder>i love you</folder>
+	<filename>I Love You.d9a44e42-0912-11ee-969e-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\i love you\I Love You.d9a44e42-0912-11ee-969e-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>I Love You</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>103</xmin>
+			<ymin>34</ymin>
+			<xmax>383</xmax>
+			<ymax>392</ymax>
+		</bndbox>
+	</object>
+</annotation>

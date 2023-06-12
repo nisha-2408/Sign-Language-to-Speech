@@ -1,0 +1,26 @@
+<annotation>
+	<folder>you</folder>
+	<filename>You.8a16325e-0912-11ee-87e5-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\you\You.8a16325e-0912-11ee-87e5-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>You</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>140</xmin>
+			<ymin>153</ymin>
+			<xmax>392</xmax>
+			<ymax>366</ymax>
+		</bndbox>
+	</object>
+</annotation>

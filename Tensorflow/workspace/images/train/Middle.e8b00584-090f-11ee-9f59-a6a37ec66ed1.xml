@@ -1,0 +1,26 @@
+<annotation>
+	<folder>middle</folder>
+	<filename>Middle.e8b00584-090f-11ee-9f59-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\middle\Middle.e8b00584-090f-11ee-9f59-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Middle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>224</xmin>
+			<ymin>125</ymin>
+			<xmax>465</xmax>
+			<ymax>405</ymax>
+		</bndbox>
+	</object>
+</annotation>

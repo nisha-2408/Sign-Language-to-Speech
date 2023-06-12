@@ -1,0 +1,26 @@
+<annotation>
+	<folder>thank you</folder>
+	<filename>Thank You.c4b828ce-0912-11ee-94a5-a6a37ec66ed1.jpg</filename>
+	<path>C:\Users\mohan\Documents\Project-Work-4\Tensorflow\workspace\images\collected-images\thank you\Thank You.c4b828ce-0912-11ee-94a5-a6a37ec66ed1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Thank You</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>132</ymin>
+			<xmax>395</xmax>
+			<ymax>321</ymax>
+		</bndbox>
+	</object>
+</annotation>
