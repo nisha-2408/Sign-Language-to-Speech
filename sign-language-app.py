@@ -9,6 +9,12 @@ from object_detection.utils import config_util
 from object_detection.protos import pipeline_pb2
 from google.protobuf import text_format
 import streamlit as st
+from gtts import gTTS
+from IPython.display import Audio
+from cvzone.HandTrackingModule import HandDetector
+import pygame
+
+pygame.mixer.init()
 
 st.title("Capturing gesture")
 frame_placeholder = st.empty()
@@ -44,17 +50,39 @@ category_index = label_map_util.create_category_index_from_labelmap(ANNOTATION_P
 
 # Setup capture
 cap = cv2.VideoCapture(0)
+detector = HandDetector(maxHands=2)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-
-while not stop_button_pressed and True: 
+folders = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine','Aboard', 'All Gone', 'Baby', 'Beside', 'Book', 'Bowl', 'Bridge', 'Camp', 'Fond', 'Friend', 'High', 'House', 'How Many', 'I', 'I Love You', 'Marry', 'Medal', 'Mid Day', 'Middle', 'Money', 'Mother', 'Opposite', 'Rose', 'See', 'Short', 'Thank You', 'Write', 'yes', 'You']
+prev = ""
+while True: 
     ret, frame = cap.read()
+    hands = detector.findHands(frame, draw=False)
+    
     image_np = np.array(frame)
     
     input_tensor = tf.convert_to_tensor(np.expand_dims(image_np, 0), dtype=tf.float32)
     detections = detect_fn(input_tensor)
     
     num_detections = int(detections.pop('num_detections'))
+    label = np.argmax(detections['detection_multiclass_scores'])
+    prediction = folders[label-1]
+    # Get the first detection
+    detection = detections['detection_boxes'][0, 0]
+
+# Check if a bounding box exists
+    
+    if hands:
+        if prediction != prev :
+            prev = prediction
+            print(prev)
+            gesture = "{}.mp3".format(prev)
+            if not os.path.exists(gesture):
+                tts = gTTS(text=prev, lang='en')
+                tts.save(gesture)
+                Audio(gesture)
+            pygame.mixer.music.load(gesture)  # Load the audio file
+            pygame.mixer.music.play()
     detections = {key: value[0, :num_detections].numpy()
                   for key, value in detections.items()}
     detections['num_detections'] = num_detections
@@ -79,8 +107,8 @@ while not stop_button_pressed and True:
     image = cv2.resize(image_np_with_detections, (800, 600))
     frame_placeholder.image(image , channels='RGB')
 
-    cv2.imshow('object detection',  cv2.resize(image_np_with_detections, (800, 600)))
+    #cv2.imshow('object detection',  cv2.resize(image_np_with_detections, (800, 600)))
     
-    if cv2.waitKey(1) & 0xFF == ord('q') or stop_button_pressed:
+    if cv2.waitKey(1) & 0xFF == ord('q'):
         cap.release()
         break
